@@ -8,7 +8,7 @@ exports.add = function (x, y) {
   
   exports.sumOfPositiveNumbers = function (upperLimitInclusive) {
     let result = 0;
-    for (let i = 0; i <= upperLimitInclusive; i++) {
+    for (let i = 1; i <= upperLimitInclusive; i++) {
       result += i;
     }
     return result;
